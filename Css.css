@@ -1,0 +1,131 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.btn {
+  background-color: #ff5e3a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* About Section Styles */
+.about-content {
+  padding: 50px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Services Section Styles */
+.services-content {
+  padding: 50px;
+  background-color: #f7f7f7;
+}
+
+.services-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.services-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services-content ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Contact Section Styles */
+.contact-content {
+  padding: 50px;
+}
+
+.contact-content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-content form button {
+  background-color: #ff5e3a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
